@@ -23,3 +23,25 @@ export default CreatePeer
 // 断开连接
 // 获取错误重试机制
 // 心跳机制
+
+// config = {
+//   peerid,
+//   retry,
+//   retryTime,
+//   Media,
+//   data,
+//   steam,
+//   long
+// }
+
+// Peer.on(key, eventKey, callback)
+// Peer.mediaOn() {
+//   callObject
+// }
+// Peer.off
+// Peer.call(key, stream) {
+//   return peerObject
+// }
+// Peer.connect()
+// Peer.disConnect()
+// Peer.ping(id/ip)
